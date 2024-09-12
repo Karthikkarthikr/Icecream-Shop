@@ -1,0 +1,122 @@
+body{
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box{
+    display: flex;
+justify-content: center;
+align-items: center;
+min-height: 90vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center; 
+    padding:10px 0 10px 0; 
+} 
+#name_error{
+    color: white;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.input-box .input{
+    height: 50px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background: rgba(255, 255,255,0.1);
+    outline: none;
+    /* margin: 15px 0; */
+}
+i{
+    position: relative;
+    top: -55px;
+    left: 17px;
+    /* position: fixed; */
+    color: #fff;
+}
+#password_error ,#name_error{
+    color: red;
+    /* margin-top: -0px; */
+}
+::-webkit-input-placeholder{
+    color: #fff;
+} 
+.submits{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: #000;
+    background: rgba(255, 255,255,0.7);
+    cursor: pointer;
+    transition: .3s;
+}
+.submits:hover{
+    box-shadow:  rgba(110, 104, 104, 0.2);
+    background-color: violet;
+}
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-size: small;
+    margin-top: 10px;
+}
+.one{
+    display: flex;
+}
+.one:hover{
+    cursor: pointer;
+    color: skyblue;
+}
+label a{
+    text-decoration: none;
+    color: #fff;
+}
+label a:hover{
+     cursor: pointer;
+     color: skyblue;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.three a{
+    color:violet;
+    text-decoration: none;
+}
+@media (max-width:400px) {
+    .container{
+        padding: 0 5px 0 5px;
+    }
+}
+@media (max-width:350px) {
+    .container{
+        width: 300px;
+        padding: 0 2px 0 2px;
+    }
+}
