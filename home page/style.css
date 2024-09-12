@@ -238,7 +238,7 @@ header .users button:hover{
     position: absolute;
     bottom: -1px;
     left: 0;
-    background: url('/img/banner-bg-shape-1.svg');
+    background: url('../img/banner-bg-shape-1.svg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -283,7 +283,7 @@ header .users button:hover{
 .home .box-container .box img{
     background-size: contain;
     background-position: center;
-	background-image: url('/img/shap.png');
+	background-image: url('../img/shap.png');
     /* width: 100%; */
 }
 .about{
@@ -305,7 +305,7 @@ header .users button:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-	background-image: url('/img/shap2.png');
+	background-image: url('../img/shap2.png');
     width: 100%;
 }
 .about .row .contents{
@@ -359,7 +359,7 @@ header .users button:hover{
 .containerss{
     width: 100vw;
     min-height: 100vh;
-    background-image: url('/img/bg.jpg');
+    background-image: url('../img/bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -450,7 +450,7 @@ header .users button:hover{
     margin-bottom: 2rem;
 }
 .features{
-    background-image: url('/img/bg_img1.png');
+    background-image: url('../img/bg_img1.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -536,7 +536,7 @@ header .users button:hover{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-	background-image: url('/img/shap2.png');
+	background-image: url('../img/shap2.png');
     width: 100%;
     text-align: center;
 }
@@ -644,7 +644,7 @@ header .users button:hover{
     padding: 2rem 1rem;
 }
 footer{
-    background-image: url('/img/footer-bg.jpg');
+    background-image: url('../img/footer-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -233,7 +233,7 @@ header .users button:hover{
     padding: 2rem;
 }
 .about .row .image img{
-    background-image: url('/img/shap2.png');
+    background-image: url('../img/shap2.png');
     background-position: center;
     background-size: contain;
     width: 100%;
@@ -338,7 +338,7 @@ header .users button:hover{
     text-decoration: none;
 } */
 footer{
-    background-image: url('/img/footer-bg.jpg');
+    background-image: url('../img/footer-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

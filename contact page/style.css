@@ -404,7 +404,7 @@ header .users button:hover{
 }
 
 footer{
-    background-image: url('/img/footer-bg.jpg');
+    background-image: url('../img/footer-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

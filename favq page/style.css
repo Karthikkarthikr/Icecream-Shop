@@ -219,7 +219,7 @@ header .users button:hover{
 }
 section{
     padding: 4% 6%;
-    background-image: url('/img/blog1.jpg');
+    background-image: url('../img/blog1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 10%;
@@ -355,7 +355,7 @@ h1{
     padding: 2rem 1rem;
 }
 footer{
-    background-image: url('/img/footer-bg.jpg');
+    background-image: url('../img/footer-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
