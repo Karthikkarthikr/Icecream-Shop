@@ -219,7 +219,7 @@ header .users button:hover{
 }
 body {
     scroll-behavior: smooth;
-    font-family: "Pompiere", cursive;
+    /* font-family: "Pompiere", cursive; */
     font-size: 1.2rem;
     /* color: var(--text-clr); */
     transition: background-color 1000ms;
@@ -508,10 +508,10 @@ footer .footer-bottom a{
       margin-top: 35%;
      }
   header .search-form{
-      width: 30rem;
+      width: 25rem;
   }
   header .shopping-cart{
-      width: 30rem;
+      width: 25rem;
   }
   header{
     padding: 1rem 1rem;

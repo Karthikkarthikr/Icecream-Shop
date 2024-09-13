@@ -522,10 +522,10 @@ footer .footer-bottom a{
 
 @media screen and (max-width:350px){
     header .search-form{
-        width: 30rem;
+        width: 25rem;
     }
     header .shopping-cart{
-        width: 30rem;
+        width: 25rem;
     }
     header{
       padding: 1rem 1rem;
