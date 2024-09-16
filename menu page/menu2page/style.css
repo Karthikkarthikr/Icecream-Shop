@@ -134,4 +134,7 @@ body {
       font-size: 15px;
       text-align: end;
     }
+    #prc{
+      margin-left: 20px;
+    }
   }
